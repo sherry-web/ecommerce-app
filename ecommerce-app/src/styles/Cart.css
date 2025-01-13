@@ -1,0 +1,34 @@
+.cart {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #033043;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cart li:hover {
+  background-color: #eaeaea;
+}
+
+.cart .total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}

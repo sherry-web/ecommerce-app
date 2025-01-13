@@ -1,0 +1,55 @@
+.product-card {
+  background: #ffffff; /* White card background */
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 20px; /* Spacing inside the card */
+  width: 260px; /* Slightly wider for larger images */
+  text-align: center;
+  border-radius: 12px; /* Smooth, rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px); /* Lift effect */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+}
+
+.product-card img {
+  max-width: 100%; /* Ensure image fits the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 12px; /* Rounded corners for images */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.product-card h3 {
+  font-size: 1.5rem; /* Larger, readable text */
+  color: #033043; /* Primary dark color */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.product-card p {
+  font-size: 1rem; /* Regular text size */
+  color: #555; /* Neutral gray color */
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #FDA521; /* Primary accent color */
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Button padding */
+  cursor: pointer;
+  border-radius: 8px; /* Rounded button */
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-card button:hover {
+  background-color: #0A7273; /* Hover color */
+  transform: scale(1.05); /* Slight scale effect */
+}
+
+.product-card button:focus {
+  outline: none;
+}

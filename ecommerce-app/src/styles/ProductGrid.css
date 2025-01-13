@@ -1,0 +1,13 @@
+.product-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+  
+  @media (max-width: 768px) {
+    .product-grid {
+      justify-content: center;
+    }
+  }
