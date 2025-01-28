@@ -1,17 +1,12 @@
-import React from "react";
-import chairImage from "../assets/chair.png"; 
-import sofaImage from "../assets/sofa.png";  
-import tableImage from "../assets/table.png"; 
-
 const ProductCard = ({ product, addToCart }) => {
   const getProductImage = (productName) => {
     switch (productName.toLowerCase()) {
       case 'chair':
-        return chairImage;
+        return require('../assets/chair.png');
       case 'sofa':
-        return sofaImage;
+        return require('../assets/sofa.png');
       case 'dining table':
-        return tableImage;
+        return require('../assets/table.png');
       default:
         console.error('Image not found for:', productName);
         return product.image;

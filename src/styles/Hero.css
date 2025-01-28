@@ -1,0 +1,26 @@
+.hero {
+  background-image: url('../assets/backgroundlogo.svg');
+  background-size: cover;
+  color: rgb(53, 166, 170);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #FDA521;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #F97710;
+}

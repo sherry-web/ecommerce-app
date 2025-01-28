@@ -1,0 +1,30 @@
+.filter {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter h4 {
+  margin-bottom: 15px;
+  color: #033043;
+}
+
+.filter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter ul li {
+  margin-bottom: 10px;
+}
+
+.filter ul li label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter ul li input {
+  margin-right: 10px;
+}
